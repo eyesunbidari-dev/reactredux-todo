@@ -33,6 +33,7 @@
   border: 1px solid white;
   color: white;
   background-color: orangered;
+  cursor: pointer;
 }
 .all-todos{
   list-style: none;
