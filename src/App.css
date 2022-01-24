@@ -8,9 +8,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.f-t{
+  display: flex;
+  justify-content: space-between;
 }
 .todo-input{
   width:350px;
@@ -53,4 +56,23 @@
   text-align: start;
   flex: 1;
 
+}
+
+@media screen and (max-width: 480px) {
+  .f-t{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .single-todo{
+   
+    width: 350px;
+    box-sizing: border-box;
+  }
+  
+   
+  
+ 
 }

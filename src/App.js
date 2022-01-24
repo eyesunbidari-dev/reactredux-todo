@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        <h2>Todo List (react-redux)</h2> 
-       <form onSubmit={handleSubmit}>
+       <form className='f-t' onSubmit={handleSubmit}>
          <input className='todo-input' placeholder='Enter Todo' onChange={(e)=> setTodo(e.target.value)}/>
          <button className='todo-input-btn' type="submit">Click me</button>
        </form >
